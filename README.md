@@ -22,7 +22,7 @@ $ <wherever_you_put_script>/make_samples_for_pangaea.sh
 
 And voila, our files are converted and packed!
 
-All preset files are put into directory named `Bank` (created in current directory). You should then just clean chosen CP-100 bank directory (say, `Bank_0`) and copy `Bank` content into that CP-100 bank directory:
+All preset files are put into directory named `Result` (created in current directory). You should then just clean chosen CP-100 bank(s) and copy `Result` content to CP-100:
 
 ```bash
 $ rm -rfv <wherever_you_mounted_cp_100>/Bank_0/**/*.wav # remove old IR-files
