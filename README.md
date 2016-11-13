@@ -25,8 +25,8 @@ And voila, our files are converted and packed!
 All preset files are put into directory named `Result` (created in current directory). You should then just clean chosen CP-100 bank(s) and copy `Result` content to CP-100:
 
 ```bash
-$ rm -rfv <wherever_you_mounted_cp_100>/Bank_0/**/*.wav # remove old IR-files
-$ cp -rfv ./Bank/* <wherever_you_mounted_cp_100>/Bank_0/
+$ rm -rfv <wherever_you_mounted_cp_100>/Bank_0/* # remove old IR-files
+$ cp -rfv ./Bank_N/* <wherever_you_mounted_cp_100>/Bank_0/
 ```
 
 ## Questions?
